@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="mdl/material.min.css" />
+    <script src="mdl/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+            <header class="caja1">
+                <img class="logo" src="captura.png" alt="logo"/>
+                <input class="buscar" type="search"/>
+                    <img class="lupa" src="buscar.png" alt="lupa"/>
+                <nav class="nav">
+                    <div class="cuentas">
+                        <a href="#">
+                            <p>CUENTAS</p>
+                        </a>
+
+                    </div>
+                    <div class="pedidos">
+                        <a href="#">
+                            <p>PEDIDOS</p>
+                        </a>
+
+                    </div>
+                    <div class="prime">
+                        <a href="#">
+                            <p>PRIME</p>
+                        </a>
+                    </div>
+        
+                </nav>
+            </header>
+            
+            
+            <aside class="caja3">
+                <img class="imagen1" src="Captura1.png" alt="prenda1"/>
+            </aside>
+            <aside class="caja4">
+                <img class="imagen2" src="Captura2.png" alt="prenda1"/>
+            </aside>
+            <aside class="caja5">
+                <img class="imagen3" src="Captura3.png" alt="prenda1"/>
+            </aside>
+            <section class="caja6">
+                <h2>Pantalon militar</h2>
+                        <ul>
+                            <li>Viste a la moda</li>
+                            <li>Comodo</li>
+                            <li>De buena calidad</li>
+                        </ul>
+                        <h3>$500 MNX</h3>
+                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                            <i class="material-icons">add</i>
+                            </button><br> <h4>Envio Express?</h4>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                                <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                                <span class="mdl-radio__label">SI</span>
+                              </label>
+                              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                                <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                                <span class="mdl-radio__label">NO</span>
+                              </label>
+
+                            <br>
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                <span class="mdl-checkbox__label">Talla extra grande</span>
+                              </label>
+                              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Incluir cinturon</span>
+                              </label>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"> Button
+                            </button>
+                            <br> <!-- MDL Progress Bar with Indeterminate Progress -->
+                            <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+                            
+                            <!-- Multiline Tooltip -->
+                            <div id="tt4" class="icon material-icons">share</div>
+                            <div class="mdl-tooltip" for="tt4">
+                            Share your content<br>via social media
+                            </div>
+                           
+            </section>
+            <section class="caja7">
+                <h2>Pantalon azul</h2>
+                        <ul>
+                            <li>Viste a la moda</li>
+                            <li>Comodo</li>
+                            <li>De buena calidad</li>
+                        </ul>
+                        <h3>$400 MNX</h3>
+                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                            <i class="material-icons">add</i>
+                            </button> <br> <h4>Envio Express?</h4>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                                <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                                <span class="mdl-radio__label">SI</span>
+                              </label>
+                              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                                <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                                <span class="mdl-radio__label">NO</span>
+                              </label>
+
+                            <br>
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                <span class="mdl-checkbox__label">Talla extra grande</span>
+                              </label>
+                              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Incluir cinturon</span>
+                              </label>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"> Button
+                            </button>
+                            <br> <!-- Simple MDL Progress Bar -->
+                            <div id="p1" class="mdl-progress mdl-js-progress"></div>
+                            <script>
+                              document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+                                this.MaterialProgress.setProgress(44);
+                              });
+                            </script>
+                             <!-- Multiline Tooltip -->
+                            <div id="tt4" class="icon material-icons">share</div>
+                            <div class="mdl-tooltip" for="tt4">
+                            Share your content<br>via social media
+                            </div>
+      
+</script>
+                            
+            </section>
+            <section class="caja8">
+                <h2>Pantalon gris</h2>
+                        <ul>
+                            <li>Viste a la moda</li>
+                            <li>Comodo</li>
+                            <li>De buena calidad</li>
+                        </ul>
+                        <h3>$600 MNX</h3>
+                        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                            <i class="material-icons">add</i>
+                            </button> <br> <h4>Envio Express?</h4>
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                                <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                                <span class="mdl-radio__label">SI</span>
+                              </label>
+                              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                                <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                                <span class="mdl-radio__label">NO</span>
+                              </label>
+
+                            <br>
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                                <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+                                <span class="mdl-checkbox__label">Talla extra grande</span>
+                              </label>
+                              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label">Incluir cinturon</span>
+                              </label>
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"> Button
+                            </button>
+                            <br> <!-- MDL Progress Bar with Buffering -->
+                            <div id="p3" class="mdl-progress mdl-js-progress"></div>
+                            <script>
+                              document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+                                this.MaterialProgress.setProgress(33);
+                                this.MaterialProgress.setBuffer(87);
+                              });
+                            </script>
+                            <!-- Multiline Tooltip -->
+                            <div id="tt4" class="icon material-icons">share</div>
+                            <div class="mdl-tooltip" for="tt4">
+                            Share your content<br>via social media
+                            </div>
+                            
+            </section>
+            
+           
+            <footer class="caja10">
+                <div class="redes">
+                    <img class="face" src="facebook.png" alt="facebook"/>
+                    <img class="insta" src="instagram.png" alt="instagram" />
+                    <img class="twi" src="twiter.png" alt="twitter" />
+                    <img class="lin" src="link.png" alt="link" />
+                    </div>
+                    <div class="derechos">
+                        <p>©2013-2018 Amazon Enterprises, Inc. Todos los derechos Reservados.</p>
+                    </div>
+            </footer>
+            
+    </div>
+</body>
+</html>
